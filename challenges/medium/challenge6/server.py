@@ -97,7 +97,7 @@ def read_document(document_name: str) -> str:
     try:
         filepath = f"/tmp/dvmcp_challenge6/documents/{document_name}"
         if os.path.exists(filepath):
-            with open(filepath, "r") as f:
+
                 return f.read()
         else:
             return f"Error: Document '{document_name}' not found."
