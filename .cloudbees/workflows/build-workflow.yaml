@@ -3,10 +3,7 @@ kind: workflow
 name: Build Workflow
 
 on:
-  push:
-    branches:
-      - "**"
-  workflow_dispatch:
+  workflow_call:
 
 permissions:
   scm-token-own: read
