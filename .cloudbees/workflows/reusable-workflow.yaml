@@ -6,3 +6,5 @@ on:
 jobs:
   call_bar_workflow:
     uses: CP-QA-Org/Build-Repo/.cloudbees/workflows/build-workflow.yaml
+    secrets:
+      GH_SECURITY_PAT: ${{ secrets.GH_SECURITY_PAT }}
