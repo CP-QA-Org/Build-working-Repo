@@ -5,4 +5,4 @@ on:
   workflow_dispatch:
 jobs:
   call_bar_workflow:
-    uses: CP-QA-Org/Build-Repo/blob/main/.cloudbees/workflows/build-workflow.yaml
+    uses: CP-QA-Org/Build-Repo/.cloudbees/workflows/build-workflow.yaml
