@@ -4,6 +4,9 @@ name: Build Workflow
 
 on:
   workflow_call:
+    secrets:
+      GH_SECURITY_PAT:
+        required: true
 
 permissions:
   scm-token-own: read
