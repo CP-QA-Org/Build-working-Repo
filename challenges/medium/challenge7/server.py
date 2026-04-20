@@ -29,7 +29,6 @@ if not os.path.exists(TOKEN_FILE):
         "analytics_platform": {
             "service_name": "DataMetrics Analytics",
             "api_key": "dm_api_9z8y7x6w5v4u3t2s1r",
-
             "refresh_token": "rt_3e4r5t6y7u8i9o0p1a2s3d4f5g6h7j",
             "expires_at": "2025-12-31T23:59:59Z"
         }
