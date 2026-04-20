@@ -118,8 +118,8 @@ def read_upload(upload_name: str) -> str:
     try:
         filepath = f"/tmp/dvmcp_challenge6/user_uploads/{upload_name}"
         if os.path.exists(filepath):
-            with open(filepath, "r") as f:
-                return f.read()
+
+            return f.read()
         else:
             return f"Error: Upload '{upload_name}' not found."
     except Exception as e:
