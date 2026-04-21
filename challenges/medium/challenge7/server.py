@@ -15,7 +15,6 @@ if not os.path.exists(TOKEN_FILE):
         "email_service": {
             "service_name": "EmailPro API",
             "api_key": "epro_api_5f4e3d2c1b0a9z8y7x",
-
             "refresh_token": "rt_7y6t5r4e3w2q1z0x9c8v7b6n5m4k3j2h1g0f",
             "expires_at": "2025-12-31T23:59:59Z"
         },
